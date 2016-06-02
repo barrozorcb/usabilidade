@@ -1,0 +1,140 @@
+body{
+    position: relative;
+}
+
+nav{
+    position:fixed;
+}
+
+nav li{
+    list-style:none;
+    font-size:24px;
+    padding:3px;
+}
+nav li a{
+    font-weight:bold;
+    text-decoration:none;
+    color:#055a4d;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: inherit;
+}
+
+nav li a:hover{
+    font-weight:bold;
+    text-decoration:underline;
+    color:#9defe3;
+}
+
+.navbar{
+    border-radius: 0px !important;
+}
+
+#carossel{
+    padding-top: 5%;
+}
+
+.carousel-inner > .item > img {
+    position: relative;
+    width: 100%;
+    height: 100%; /* Altura da imagem dentro do Carousel */
+}
+
+.img-rounded{
+    border-radius: 0px !important;
+}
+
+@media screen and (max-width: 768px) {
+    #carossel{
+        padding-top: 15%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-right {
+        float: right!important;
+         margin-right: 0px;
+    }
+}
+
+a {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#quemSomos {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+}
+
+#quemSomos > h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#descricao{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#descricao > p {
+    text-align: center;
+    font-size: 25px;
+}
+
+#gap img{
+    width: 100%;
+    height: 100%;
+}
+
+#produtos {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+}
+
+#produtos > h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#descricaoProdutos{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+#gap2 img{
+    width: 100%;
+    height: 100%;
+}
+
+#mensagem {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+}
+
+#mensagem > h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#formMensagem{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#myModalLabel{
+    text-align: center;
+    font-size: 20px;
+}
+
+#nickname{
+    color: white;
+}
